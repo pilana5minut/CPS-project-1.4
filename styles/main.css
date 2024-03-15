@@ -453,13 +453,13 @@ img {
   column-gap: 16px;
 }
 .contact-widget__trigger--call {
-  background-image: url("../../../../assets/svg/icon-call.svg");
+  background-image: url("../assets/svg/icon-call.svg");
 }
 .contact-widget__trigger--chat {
-  background-image: url("../../../../assets/svg/icon-chat.svg");
+  background-image: url("../assets/svg/icon-chat.svg");
 }
 .contact-widget__trigger--profile {
-  background-image: url("../../../../assets/svg/icon-profile.svg");
+  background-image: url("../assets/svg/icon-profile.svg");
 }
 
 /*# sourceMappingURL=main.css.map */
