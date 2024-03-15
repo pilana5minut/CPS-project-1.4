@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sasscompil": "sass -w styles/scss:styles"
+    "sasscompil": "sass -w styles/scss/main.scss:styles/main.css"
   },
   "keywords": [],
   "author": "",

@@ -7,7 +7,7 @@
 
 html {
   height: 100%;
-  background-image: url("../assets/cell-96-160.svg");
+  // background-image: url("../assets/cell-96-160.svg");
 }
 
 body {
@@ -17,7 +17,7 @@ body {
   font-family: "TTLakes", sans-serif;
   font-weight: 500;
   color: var(--color-text);
-  background-image: url("../assets/cell-body.svg");
+  // background-image: url("../assets/cell-body.svg");
 }
 
 a {
@@ -29,6 +29,19 @@ a {
 img {
   max-width: 100%;
   object-fit: cover;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .reset-list {
@@ -50,7 +63,35 @@ img {
 }
 
 .container-fluid {
-  max-width: 100%;
+  // max-width: 100%;
   // margin: 0 auto;
   // padding: 0 16px;
+}
+
+.circul-button {
+  width: 40px;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline-color: var(--color-accent-secondary);
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 2px;
+    border-radius: 40px;
+    transition: outline-offset 100ms;
+  }
+
+  @include media-hover() {
+    outline: 2px solid var(--color-accent-secondary);
+    outline-offset: 2px;
+    border-radius: 20px;
+  }
+}
+
+.logo {
+  &__image {
+    display: block;
+  }
 }

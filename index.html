@@ -4,16 +4,196 @@
 <head>
   <title>CPS project</title>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon"
-        href="assets/favicon.svg"
-        type="image/x-icon">
-  <link rel="stylesheet"
-        href="styles/main.css">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <link
+    rel="shortcut icon"
+    href="assets/favicon.svg"
+    type="image/x-icon"
+  >
+  <link
+    rel="stylesheet"
+    href="styles/main.css"
+  >
 </head>
 
 <body>
+  <aside class="sidebar">
+
+    <header class="sidebar__header">
+      <div class="sidebar__header-inner">
+        <button
+          class="sidebar__button-close circul-button reset-btn"
+          type="button"
+        >
+          <span class="visually-hidden">Кнопка закрыть</span>
+        </button>
+        <a class="sidebar__logo logo">
+          <img
+            class="logo__image"
+            src="../assets/svg/logo-brand.svg"
+            alt="Логотип компании CPS"
+            width="97"
+            height="51"
+            loading="lazy"
+          >
+          <span class="visually-hidden">Кнопка закрыть</span>
+        </a>
+        <button
+          class="sidebar__button-search circul-button reset-btn"
+          type="button"
+        >
+          <span class="visually-hidden">Кнопка поиска</span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="sidebar__menu">
+      <ul class="sidebar__list reset-list">
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link sidebar__link--current"
+            href="#"
+          >Ремонт техники</a>
+        </li>
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link"
+            href="#"
+          >Услуги и сервисы</a>
+        </li>
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link"
+            href="#"
+          >Корпоративным клиентам</a>
+        </li>
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link"
+            href="#"
+          >Продавцам техники</a>
+        </li>
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link"
+            href="#"
+          >Партнерам</a>
+        </li>
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link"
+            href="#"
+          >Производителям</a>
+        </li>
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link"
+            href="#"
+          >Наши сервисные центры</a>
+        </li>
+        <li class="sidebar__item">
+          <a
+            class="sidebar__link"
+            href="#"
+          >Контакты</a>
+        </li>
+      </ul>
+    </nav>
+
+    <footer class="sidebar__footer">
+      <div class="sidebar__footer-inner">
+
+        <ul class="contact-widget sidebar__contact-widget reset-list">
+          <li class="contact-widget__item">
+            <button
+              class="contact-widget__trigger contact-widget__trigger--call circul-button reset-btn"
+              type="button"
+            >
+              <span class="visually-hidden">Заказать звонок</span>
+            </button>
+          </li>
+          <li class="contact-widget__item">
+            <button
+              class="contact-widget__trigger contact-widget__trigger--chat circul-button reset-btn"
+              type="button"
+            >
+              <span class="visually-hidden">Оставить обратную связь</span>
+            </button>
+          </li>
+          <li class="contact-widget__item">
+            <a
+              class="contact-widget__trigger contact-widget__trigger--profile circul-button"
+              href="#"
+            >
+              <span class="visually-hidden">Переход на страницу профиля</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="sidebar__communication reset-list">
+          <li class="sidebar__communication-item">
+            <a
+              class="sidebar__mail-link"
+              href="mailto:mail@cps.com"
+            >mail@cps.com</a>
+          </li>
+          <li class="sidebar__communication-item">
+            <a
+              class="sidebar__tel-link"
+              href="tel:88008908900"
+            >8 800 890 8900</a>
+          </li>
+        </ul>
+
+        <ul class="lang-switcher sidebar__lang-switcher reset-list">
+          <li class="lang-switcher__item">
+            <input
+              class="lang-switcher__radio-button visually-hidden"
+              type="radio"
+              name="lang-switcher"
+              id="lang-ru"
+              checked
+            >
+            <label
+              class="lang-switcher__label"
+              for="lang-ru"
+            >RU</label>
+          </li>
+
+          <li class="lang-switcher__item">
+            <input
+              class="lang-switcher__radio-button visually-hidden"
+              type="radio"
+              name="lang-switcher"
+              id="lang-en"
+            >
+            <label
+              class="lang-switcher__label"
+              for="lang-en"
+            >EN</label>
+          </li>
+
+          <li class="lang-switcher__item">
+            <input
+              class="lang-switcher__radio-button visually-hidden"
+              type="radio"
+              name="lang-switcher"
+              id="lang-ch"
+            >
+            <label
+              class="lang-switcher__label"
+              for="lang-ch"
+            >CH</label>
+          </li>
+        </ul>
+
+      </div>
+    </footer>
+
+  </aside>
 </body>
 
 </html>

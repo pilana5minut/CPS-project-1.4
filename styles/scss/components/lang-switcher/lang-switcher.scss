@@ -1,0 +1,27 @@
+.lang-switcher {
+  display: flex;
+  column-gap: 8px;
+
+  & * {
+    // @include visible-bound()
+  }
+
+  &__radio-button {
+    // appearance: none;
+
+    &:checked+.lang-switcher__label {
+      color: #7e7e82;
+    }
+  }
+
+  &__label {
+    display: block;
+    line-height: 150%;
+    color: var(--color-text);
+    transition: color 200ms;
+
+    &:hover {
+      color: #7e7e82;
+    }
+  }
+}
