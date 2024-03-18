@@ -87,6 +87,19 @@ img {
   border-style: none;
 }
 
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
 button,
 input,
 optgroup,
@@ -192,6 +205,13 @@ template {
   display: none;
 }
 
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 :root {
   --color-white: #fff;
   --color-text: #1B1C21;
@@ -243,18 +263,6 @@ img {
   overflow: hidden;
 }
 
-.reset-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.reset-btn {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-}
-
 .container {
   max-width: 1120px;
   margin: 0 auto;
@@ -296,6 +304,7 @@ img {
 
 .sidebar {
   max-width: 320px;
+  height: 100%;
   padding: 19px 24px;
   display: flex;
   flex-direction: column;
@@ -321,7 +330,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
-  margin-bottom: 268px;
+  margin-bottom: 50px;
 }
 .sidebar__link {
   padding: 12px 0px;
@@ -372,6 +381,13 @@ img {
   top: 8px;
   left: -24px;
   background-color: var(--color-accent-secondary);
+}
+.sidebar__footer {
+  display: flex;
+  flex-grow: 1;
+}
+.sidebar__footer-inner {
+  margin-top: auto;
 }
 .sidebar__contact-widget {
   margin-bottom: 16px;
