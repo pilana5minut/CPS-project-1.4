@@ -161,6 +161,21 @@ img {
   border-style: none;
 }
 
+// /* Lists
+//    ========================================================================== */
+
+// /**
+//  * 1. Overrides margin and padding values.
+//  * 2. Disables markers on list items.
+//  */
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 // /* Forms
 //    ========================================================================== */
 
@@ -168,6 +183,12 @@ img {
 //  * 1. Change the font styles in all browsers.
 //  * 2. Remove the margin in Firefox and Safari.
 //  */
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
 
 button,
 input,
@@ -376,4 +397,11 @@ template {
 
 [hidden] {
   display: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }

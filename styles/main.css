@@ -87,6 +87,19 @@ img {
   border-style: none;
 }
 
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
 button,
 input,
 optgroup,
@@ -192,6 +205,13 @@ template {
   display: none;
 }
 
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 :root {
   --color-white: #fff;
   --color-text: #1B1C21;
@@ -241,18 +261,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.reset-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.reset-btn {
-  padding: 0;
-  border: none;
-  background-color: transparent;
 }
 
 .container {
