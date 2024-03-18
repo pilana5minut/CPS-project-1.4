@@ -296,6 +296,7 @@ img {
 
 .sidebar {
   max-width: 320px;
+  height: 100%;
   padding: 19px 24px;
   display: flex;
   flex-direction: column;
@@ -321,7 +322,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
-  margin-bottom: 268px;
+  margin-bottom: 50px;
 }
 .sidebar__link {
   padding: 12px 0px;
@@ -372,6 +373,13 @@ img {
   top: 8px;
   left: -24px;
   background-color: var(--color-accent-secondary);
+}
+.sidebar__footer {
+  display: flex;
+  flex-grow: 1;
+}
+.sidebar__footer-inner {
+  margin-top: auto;
 }
 .sidebar__contact-widget {
   margin-bottom: 16px;
